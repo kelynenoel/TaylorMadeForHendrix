@@ -255,7 +255,7 @@ async function submitForm(){
   btn.disabled = true;
   btn.textContent = "Sending...";
 
-  if(FORMSPREE_ENDPOINT.includes("YOUR_FORM_ID")){
+  if(FORMSPREE_ENDPOINT.includes("https://formspree.io/f/mgaednny")){
     errEl.innerHTML = '<div class="error">This form isn\'t connected yet — add your Formspree endpoint at the top of the script before publishing.</div>';
     btn.disabled = false;
     btn.textContent = "Send my info";
